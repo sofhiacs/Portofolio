@@ -30,7 +30,7 @@ function typeEffect() {
             typingElement.innerHTML = "";
             index = 0;
             typeEffect();
-        }, 200); // jeda 2 detik sebelum mengulang
+        }, 200);
     }
 }
 
