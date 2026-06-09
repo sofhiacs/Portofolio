@@ -1,6 +1,3 @@
-/* =====================================
-   LOADING SCREEN
-===================================== */
 
 window.addEventListener("load", () => {
 
@@ -38,9 +35,7 @@ function typeEffect() {
 }
 
 typeEffect();
-/* =====================================
-   DARK MODE
-===================================== */
+
 
 const darkBtn =
 document.getElementById(
@@ -60,11 +55,6 @@ if (darkBtn) {
     });
 
 }
-
-
-/* =====================================
-   CERTIFICATE MODAL
-===================================== */
 
 function openCertificate(src){
 
@@ -93,10 +83,6 @@ function closeCertificate(){
 }
 
 
-/* =====================================
-   CLOSE MODAL WHEN CLICK OUTSIDE
-===================================== */
-
 window.addEventListener(
 "click",
 function(e){
@@ -115,10 +101,6 @@ function(e){
 });
 
 
-/* =====================================
-   CONTACT BUTTON
-===================================== */
-
 function hubungi(){
 
     alert(
@@ -127,10 +109,6 @@ function hubungi(){
 
 }
 
-
-/* =====================================
-   SCROLL ANIMATION
-===================================== */
 
 const observer =
 new IntersectionObserver(
@@ -172,10 +150,6 @@ hiddenElements.forEach((el)=>{
 
 });
 
-
-/* =====================================
-   COUNTER ANIMATION
-===================================== */
 
 const counters =
 document.querySelectorAll(
@@ -228,10 +202,6 @@ counters.forEach((counter)=>{
 
 });
 
-
-/* =====================================
-   NAVBAR ACTIVE LINK
-===================================== */
 
 const sections =
 document.querySelectorAll(
@@ -296,10 +266,6 @@ window.addEventListener(
 
 });
 
-
-/* =====================================
-   BACK TO TOP BUTTON
-===================================== */
 
 const topButton =
 document.createElement(
